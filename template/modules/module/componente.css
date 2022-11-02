@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+body {
+  min-height: 100vh;
+  padding-bottom: 1.2rem;
+  font-family: sans-serif;
+  background: var(--bs-light);
+}
+li {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+address {
+  margin: 0;
+  padding: 0;
+}
+button {
+  background: none;
+  border: none;
+}
+.offcanvas-start {
+  width: 100%;
+  max-width: 275px;
+}
+.offcanvas-header {
+  padding: .8rem;
+}
+.offcanvas-body {
+  margin-top: 1rem;
+  padding: 0;
+}
+.side-menu-title {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.list-group-item {
+  width: 100%;
+  border-right: none;
+  border-left: none;
+}
+
+/* HERO LAYOUT */
+.hero-layout {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  max-height: 150px;
+  background: url('https://gesprender.com/app/template/assets_c/img/bg/bg-2.png') center/cover no-repeat;
+  background-size: 100%;
+}
+.hero-business-info-container {
+  position: relative;
+  display: flex;
+  column-gap: .8rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.business-info-img {
+  width: 100px;
+  height: 100px;
+  background: url('https://gesprender.com/app/upload/BurgerLast/logo.webp') center/cover no-repeat;
+  border-radius: 50%;
+}
+.business-info-details {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: content;
+}
+.business-info-place-name {
+  font-size: 20px;
+}
+.business-info-adress {
+  font-size: 15px;
+}
+.business-info-icons-container {
+  display: flex;
+}
+/* ****** */
+
+/*  MAIN HEADER STYLES */ 
+.show-menu-btn {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  padding: .3rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.navbar-toggler-icon {
+  width: 30px;
+  height: 30px;
+}
+/* ****** */
+.accordion-container {
+  margin-top: 1rem;
+  padding: 0;
+}
+.accordion-collapsible {
+  border: 1px solid hsla(0, 0%, 50%, .20);
+  border-radius: 5px;
+}
+.accordion-items-container {
+  padding: 1rem;
+}
+.accordion-item-title, .accordion-item-price {
+  font-size: 14px;
+}
+.accordion-item-description {
+  font-size: 12px;
+  color: hsla(0, 0%, 50%, .80);
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: hsla(216, 90%, 47%, .80);
+}
+.accordion-items {
+  border-top: none;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 5%, .65);
+}
+.accordion-items:nth-child(odd) {
+  background-color: hsla(0, 0%, 50%, .10);
+}
+.accordion-items:nth-child(even) {
+  background-color: white;
+}
